@@ -1,0 +1,245 @@
+#Agendamento {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Poppins';
+    background-color: black;
+}
+
+#agendamentoNav {
+    position: fixed;
+    height: 50px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+}
+
+#agendamentoOnline {
+    position: absolute;
+    width: 226px;
+    left: 0px;
+    top: 50%;
+    transform: translate(0, -50%);
+    text-transform: none;
+}
+
+#agendamentoOnline>label {
+    padding-left: 10px;
+    color: var(--unnamed-color-0a0a0a);
+    font: normal normal bold 18px/26px Poppins;
+    letter-spacing: 0px;
+    color: #0A0A0A;
+    opacity: 1;
+}
+
+#agendamentoMeus,
+#agendamentoMeusSelect {
+    position: absolute;
+    width: 220px;
+    height: 40px;
+    left: 250px;
+    top: 50%;
+    transform: translate(0, -50%);
+    text-transform: none;
+}
+
+#agendamentoMeusSelect,
+#agendamentoAgendarSelect {
+    background-color: #2196f3;
+}
+
+#agendamentoMeus>label,
+#agendamentoAgendar>label {
+    padding-left: 10px;
+    color: black;
+    font-size: 16px;
+    font-family: 'Poppins';
+}
+
+#agendamentoMeusSelect>label,
+#agendamentoAgendarSelect>label {
+    padding-left: 10px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: 'Poppins';
+}
+
+#agendamentoMeusSelect,
+#agendamentoAgendarSelect {
+    color: #FFFFFF;
+}
+
+#agendamentoAgendar,
+#agendamentoAgendarSelect {
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    left: 500px;
+    top: 50%;
+    transform: translate(0, -50%);
+    text-transform: none;
+}
+
+#agendamentoAvatar {
+    position: absolute;
+    right: 150px;
+    width: 36px;
+    height: 36px;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+#agendOpenLogin{
+    position: absolute;
+    right: 20px;
+    width: 120px;
+    height: 40px;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+#openMenu{
+    font: normal normal bold 12px/26px Poppins;
+}
+
+#agendamentoPrincipal {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    margin-top: 50px;
+    background: #F1F5F9 0% 0% no-repeat padding-box;
+}
+
+#agendamentoPainel {
+    position: fixed;
+    width: 400px;
+    height: 100vh;
+}
+
+#agendamentoPainel>label, #meusAgendamentos {
+    position: absolute;
+    color: var(--unnamed-color-0a0a0a);
+    text-align: center;
+    width: 400px;
+    top: 5%;
+    font: normal normal bold 26px/26px Poppins;
+    letter-spacing: 0px;
+    color: #0A0A0A;
+    opacity: 1;
+}
+
+#agendamentoForm {
+    position: absolute;
+    width: 280px;
+    height: 500px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 4px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+}
+
+#agendamentoProcurar {
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#agendamentoForm>label {
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    left: 50%;
+    text-align: left;
+    line-height: 50px;
+    transform: translate(-50%);
+}
+
+#agendLCampanha {
+    top: 0px;
+}
+
+#agendFCCampanha {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    text-align: left;
+    transform: translate(-50%);
+}
+#agendLMunicipio {
+    top: 80px;
+}
+
+#agendFCMunicipio {
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    text-align: left;
+    transform: translate(-50%);
+}
+
+#agendLGrupo {
+    top: 160px;
+}
+
+#agendFCGrupo {
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    text-align: left;
+    transform: translate(-50%);
+}
+
+#agendLExame {
+    top: 240px;
+}
+
+#agendFCExame {
+    position: absolute;
+    top: 280px;
+    left: 50%;
+    text-align: left;
+    transform: translate(-50%);
+}
+
+#agendLData{
+    top: 320px;
+}
+
+#AgendData {
+    position: absolute;
+    top: 346px;
+    left: 50%;
+    text-align: left;
+    transform: translate(-50%);
+    width: 174px;
+    height: 28px;
+    box-shadow: none;
+    text-transform: none;
+    font-size: 16px;
+    padding: 5px 12px;
+    border: 1px solid;
+    border-radius: 4px;
+    /* background-color: #0063cc; */
+    border-color: rgba(120, 120, 120, 0.5);
+}
+
+#AgendData:hover {
+    border: 2px solid;
+    border-color: #0063cc;
+}
+
+#AgendData:active {
+    border: 2px solid;
+    border-color: #0063cc;
+}
+
+#AgendData:focus {
+    border: 2px solid;
+    border-color: #0063cc;
+}
